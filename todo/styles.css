@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: #874356; */
+    /* background: #136a8a;  fallback for old browsers */
+    /* background: -webkit-linear-gradient(to top, #267871, #136a8a);  Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to top, #267871, #136a8a); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: #EDB458;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.todo{
+    margin-top: 100px;
+    min-width: 350px;
+    width: 45%;
+    padding: 10px 10px ;
+}
+
+.todoLists{
+    background-color: #F6E7D8;
+    position: relative;
+    min-height: 150px;
+}
+
+.input{
+    background-color: #F6E7D8;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+input{
+    width: 80%;
+}
+
+.inputVal{
+    height: 40px;
+    margin-right: 20px;
+    border: 2px solid #874356;
+    border-radius: 5px;
+}
+
+.item{
+    position: relative;
+    padding: 10px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item:last-child{
+    border-bottom: none;
+}
+
+.item .pText{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item .deleteItem{
+    position: relative;
+    cursor: pointer;                
+    padding: 3px;
+}
+
+.item .deleteItem i{
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    border: 2px solid #874356;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
